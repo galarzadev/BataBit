@@ -11,8 +11,8 @@
     --soft-orange:#ffe9d5;
     --secondary-blue: #1a9af7;
     --soft-blue: #e7f5ff;
-    --warm-black: #201e1c;
-    --black: #282623;
+    --black: #201e1c;
+    --warm-black: #282623;
     --grey: #bababa;
     --off-white: #faf8f7;
     --just-white: #fff;
@@ -331,7 +331,7 @@ main {
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
-    background-color: var(--warm-black);
+    background-color: var(--black);
 }
 .product-detail--batata-logo {
     position: absolute; /*no tiene espacio en el layout, busca al primer padre directo con psition relative*/
@@ -363,4 +363,85 @@ main {
     font-weight: 500;
     line-height: 1.8 rem;
     color: #808080;
+}
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/clock1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .eye {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/eye1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .cash {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/dollar-sign1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--card .ok {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/check-circle1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/imgs/bitcoinbaby.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
