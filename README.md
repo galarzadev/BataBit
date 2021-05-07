@@ -1,1 +1,1 @@
-Maquetación Mobile First. platzi.com
+Maquetación Mobile First.
