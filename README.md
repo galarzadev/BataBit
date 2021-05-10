@@ -1,1 +1,1 @@
-Maquetación Mobile First.
+Maquetación Responsive
